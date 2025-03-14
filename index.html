@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COSETT Tarija - Servicios</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background: url('https://source.unsplash.com/1600x900/?technology,network') no-repeat center center/cover; 
+            color: white;
+        }
+        header { 
+            background: rgba(255, 255, 255, 0.993); 
+            color: white; 
+            padding: 15px 20px; 
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo {
+            max-width: 250px;
+        }
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+        nav a {
+            color: rgb(0, 64, 128,0.9);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container { 
+            width: 90%; 
+            max-width: 1200px; 
+            margin: auto; 
+            padding: 20px; 
+            text-align: center; 
+        }
+        .services { 
+            display: flex; 
+            flex-wrap: wrap; 
+            justify-content: center; 
+            gap: 20px; 
+        }
+        .service { 
+            background: rgba(255, 255, 255, 0.9); 
+            padding: 20px; 
+            border-radius: 8px; 
+            box-shadow: 0 0 10px rgba(0,0,0,0.3); 
+            width: 300px; 
+            text-align: center; 
+            color: black; 
+        }
+        footer { 
+            background: rgba(0, 64, 128, 0.9); 
+            color: white; 
+            text-align: center; 
+            padding: 110px; 
+            margin-top: 20px; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo COSETT" class="logo">
+        <nav>
+            <a href="#servicios">Servicios</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+    
+    <div class="container" id="servicios">
+        <h2>Nuestros Servicios</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Telefonía Fija</h3>
+                <p>Conectividad confiable con cobertura en toda Tarija.</p>
+            </div>
+            <div class="service">
+                <h3>Internet</h3>
+                <p>Alta velocidad y estabilidad para hogares y empresas.</p>
+            </div>
+            <div class="service">
+                <h3>Televisión por Cable</h3>
+                <p>Los mejores canales nacionales e internacionales.</p>
+            </div>
+        </div>
+    </div>
+    
+    <footer id="contacto">
+        <p>Contacto: <a href="mailto:contacto@cosett.com.bo" style="color: white;">contacto@cosett.com.bo</a> | Tel: <a href="tel:0000000" style="color: white;">0000000</a></p>
+        <p>&copy; 2025 COSETT Tarija - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
